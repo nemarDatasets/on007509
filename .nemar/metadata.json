@@ -1,46 +1,15 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "1hrPVTdataset_allSubjects",
+  "description": "This dataset comprises scalp electroencephalography (EEG) recordings from healthy adult participants during a one-hour psychomotor vigilance task under three stimulation conditions: 40 Hz audiovisual flicker, no flicker control, and randomized flicker sham stimulation. The study investigates the effects of flickering audiovisual stimulation on sustained attention and vigilance performance.",
+  "methods_description": "Scalp EEG activity was recorded from healthy adults during a one-hour psychomotor vigilance task. Participants were exposed to one of three conditions: 40 Hz audiovisual flicker stimulation, no flicker control condition, or randomized flicker as sham stimulation.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "Matthew Attokaren": {},
     "Annabelle Singer": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds007509.v1.0.3",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on007509",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataset/on007509",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".fdt",
-    ".json",
-    ".md",
-    ".set",
-    ".tsv"
-  ],
-  "description": "This dataset comprises scalp EEG recordings from healthy adult participants during a one-hour psychomotor vigilance task under three stimulation conditions: 40 Hz audiovisual flicker, no flicker control, and randomized flicker sham stimulation. The study investigates the effects of flickering sensory stimulation on sustained attention and vigilance performance.",
-  "methods_description": "Scalp EEG activity was recorded during a one-hour psychomotor vigilance task. Participants were exposed to one of three conditions: 40 Hz audiovisual flicker stimulation, no flicker control condition, or randomized flicker as sham stimulation.",
   "keywords": [
     {
       "term": "EEG"
@@ -52,29 +21,46 @@
       "term": "audiovisual stimulation"
     },
     {
-      "term": "attention"
-    },
-    {
       "term": "flicker stimulation"
     },
     {
+      "term": "attention"
+    },
+    {
       "term": "sustained attention"
-    },
-    {
-      "term": "scalp EEG"
-    },
-    {
-      "term": "healthy adults"
-    },
-    {
-      "term": "vigilance"
-    },
-    {
-      "term": "sham control"
-    },
-    {
-      "term": "40 Hz flicker"
     }
   ],
-  "source_hash": "d0b96c51d305a355d8cd52e2e8f9c1d0644d5f6f3b1018fbac40b60f2a2474c8"
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/on007509",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on007509",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds007509.v1.0.3",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    }
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "15.9 GB (141 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".yml"
+  ],
+  "source_hash": "84301a7f6f125e6764e5bacda6b2da4a2f1ed89e1ea336d82fb18675fb762bca"
 }
