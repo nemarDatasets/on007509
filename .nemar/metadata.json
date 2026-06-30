@@ -1,28 +1,80 @@
 {
   "version": "2.0",
-  "dataset_id": "on007509",
-  "source": "openneuro",
-  "source_id": "ds007509",
+  "pipeline_stage": "enriched",
   "title": "1hrPVTdataset_allSubjects",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Matthew Attokaren": {},
     "Annabelle Singer": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds007509.v1.0.3",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on007509",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on007509",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.8.0",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv"
+  ],
+  "description": "This dataset comprises scalp EEG recordings from healthy adult participants during a one-hour psychomotor vigilance task under three stimulation conditions: 40 Hz audiovisual flicker, no flicker control, and randomized flicker sham stimulation. The study investigates the effects of flickering sensory stimulation on sustained attention and vigilance performance.",
+  "methods_description": "Scalp EEG activity was recorded during a one-hour psychomotor vigilance task. Participants were exposed to one of three conditions: 40 Hz audiovisual flicker stimulation, no flicker control condition, or randomized flicker as sham stimulation.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "psychomotor vigilance task"
+    },
+    {
+      "term": "audiovisual stimulation"
+    },
+    {
+      "term": "attention"
+    },
+    {
+      "term": "flicker stimulation"
+    },
+    {
+      "term": "sustained attention"
+    },
+    {
+      "term": "scalp EEG"
+    },
+    {
+      "term": "healthy adults"
+    },
+    {
+      "term": "vigilance"
+    },
+    {
+      "term": "sham control"
+    },
+    {
+      "term": "40 Hz flicker"
+    }
+  ],
+  "source_hash": "d0b96c51d305a355d8cd52e2e8f9c1d0644d5f6f3b1018fbac40b60f2a2474c8"
 }
