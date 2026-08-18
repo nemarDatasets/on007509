@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "1hrPVTdataset_allSubjects",
-  "description": "This dataset comprises scalp electroencephalography (EEG) recordings from healthy adult participants during a one-hour psychomotor vigilance task under three stimulation conditions: 40 Hz audiovisual flicker, no flicker control, and randomized flicker sham stimulation. The study investigates the effects of flickering audiovisual stimulation on sustained attention and vigilance performance.",
-  "methods_description": "Scalp EEG activity was recorded from healthy adults during a one-hour psychomotor vigilance task. Participants were exposed to one of three conditions: 40 Hz audiovisual flicker stimulation, no flicker control condition, or randomized flicker as sham stimulation.",
+  "description": "This dataset contains scalp EEG recordings from healthy adult participants collected during a one-hour session involving either 40 Hz audiovisual flicker stimulation, no flicker (control), or randomized flicker (sham) conditions. Throughout the recording session, participants performed a psychomotor vigilance task (PVT), enabling investigation of the effects of rhythmic sensory stimulation on vigilance and neural activity.",
+  "methods_description": "Scalp EEG activity was recorded from healthy adults during one hour of either 40 Hz audiovisual flicker, no flicker control, or randomized flicker sham stimulation, while subjects performed a psychomotor vigilance task.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -15,19 +15,21 @@
       "term": "EEG"
     },
     {
+      "term": "Photic Stimulation",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D010775"
+    },
+    {
       "term": "psychomotor vigilance task"
+    },
+    {
+      "term": "40 Hz flicker"
     },
     {
       "term": "audiovisual stimulation"
     },
     {
-      "term": "flicker stimulation"
-    },
-    {
-      "term": "attention"
-    },
-    {
-      "term": "sustained attention"
+      "term": "gamma entrainment"
     }
   ],
   "related_identifiers": [
