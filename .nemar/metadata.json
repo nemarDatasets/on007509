@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "1hrPVTdataset_allSubjects",
-  "description": "This dataset contains scalp EEG recordings from healthy adult participants collected during a one-hour session involving either 40 Hz audiovisual flicker stimulation, no flicker (control), or randomized flicker (sham) conditions. Throughout the recording session, participants performed a psychomotor vigilance task (PVT), enabling investigation of the effects of rhythmic sensory stimulation on vigilance and neural activity.",
-  "methods_description": "Scalp EEG activity was recorded from healthy adults during one hour of either 40 Hz audiovisual flicker, no flicker control, or randomized flicker sham stimulation, while subjects performed a psychomotor vigilance task.",
+  "description": "This dataset contains scalp EEG recordings from healthy adults during one hour of stimulation. Conditions were 40 Hz audiovisual flicker, no flicker (control), or randomized flicker (sham). Participants performed a psychomotor vigilance task throughout the session.",
+  "methods_description": "Scalp EEG was recorded from healthy adult participants over one hour of 40 Hz audiovisual flicker, no flicker control, or randomized flicker sham stimulation while they performed a psychomotor vigilance task.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -15,21 +15,21 @@
       "term": "EEG"
     },
     {
-      "term": "Photic Stimulation",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D010775"
+      "term": "40 Hz audiovisual flicker"
+    },
+    {
+      "term": "gamma sensory stimulation"
     },
     {
       "term": "psychomotor vigilance task"
     },
     {
-      "term": "40 Hz flicker"
+      "term": "sham stimulation"
     },
     {
-      "term": "audiovisual stimulation"
-    },
-    {
-      "term": "gamma entrainment"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     }
   ],
   "related_identifiers": [
@@ -54,7 +54,7 @@
     "eeg"
   ],
   "sizes": [
-    "15.9 GB (141 files)"
+    "14.83 GB (141 files)"
   ],
   "formats": [
     ".fdt",
